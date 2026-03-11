@@ -2,7 +2,7 @@ let inputArray = prompt("Please enter number to array");
 
 let array = inputArray.split(",").map(Number);
 
-let itemToRemove = +prompt("What numbers to delete?")
+let itemToRemove = +prompt("What numbers to delete?");
 
 
 function removeElement(array, item) {
