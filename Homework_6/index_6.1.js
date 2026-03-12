@@ -1,5 +1,5 @@
 let string = prompt("Please enter a string");
-let charakters = prompt("Please enter a charakters to remove");
+let charakters = prompt("Please enter a charakters to remove").split('');
 
 function removeChars(string, charakters) {
     let result = '';
