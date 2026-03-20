@@ -2,7 +2,7 @@ let ladder = {
     step: 0,
 
   up: function () {
-      this.step++
+      this.step++;
       
       return this;
     },
