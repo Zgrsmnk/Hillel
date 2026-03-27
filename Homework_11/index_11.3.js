@@ -1,4 +1,4 @@
-const addImg = document.querySelector("img")
+const addImg = document.querySelector("img");
 
 const img = [
   "1.jpg",
@@ -13,6 +13,6 @@ const img = [
   "10.jpg",
 ];
 
-const randomIndex = Math.floor(Math.random() * img.length); 
+const randomIndex = Math.floor(Math.random() * img.length);
 
 addImg.src = "images/" + img[randomIndex];
