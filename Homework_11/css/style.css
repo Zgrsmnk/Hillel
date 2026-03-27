@@ -1,3 +1,10 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+.div_img {
+    width: 300px;
+}
 .red {
     color: red;
 }
