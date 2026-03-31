@@ -3,3 +3,15 @@
   padding: 20px 50px;
   background: greenyellow;
 }
+.button_container {
+    margin-top: 20px;
+}
+.button1,
+.button2,
+.button3 {
+  padding: 20px 50px;
+  background: greenyellow;
+}
+.input, .todo_button {
+    margin-top: 20px;
+}
