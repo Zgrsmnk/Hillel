@@ -52,9 +52,6 @@
 
 
 .error_name {
-    z-index: 1;
-    width: 440px;
-    height: 40px;
     padding: 6px 12px;
     background-color: lightgrey;
     border: 2px solid red;
@@ -63,9 +60,6 @@
 }
 
 .error_message {
-    z-index: 1;
-    width: 440px;
-    height: 40px;
     padding: 6px 12px;
     background-color: lightgrey;
     border: 2px solid red;
@@ -74,9 +68,6 @@
 }
 
 .error_number {
-    z-index: 1;
-    width: 440px;
-    height: 40px;
     padding: 6px 12px;
     background-color: lightgrey;
     border: 2px solid red;
@@ -85,9 +76,6 @@
 }
 
 .error_email {
-    z-index: 1;
-    width: 440px;
-    height: 40px;
     padding: 6px 12px;
     background-color: lightgrey;
     border: 2px solid red;
