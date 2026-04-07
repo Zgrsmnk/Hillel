@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.slides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.slide {
+    width: 200px;
+    display: none;
+}
+.active {
+    display: block;
+}
+.dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+}
+.activeDot {
+    background: red;
+}
+.hidden {
+    visibility: hidden;
+}
