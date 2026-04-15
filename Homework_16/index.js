@@ -123,4 +123,3 @@ console.log(
     Result: ${studentThree.summary()}
    `,
 );
-
