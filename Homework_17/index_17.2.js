@@ -1,13 +1,13 @@
 class Coach {
-  constructor(coach, specialization, rating) {
-    this.coach = coach;
+  constructor(name, specialization, rating) {
+    this.name = name;
     this.specialization = specialization;
     this.rating = rating;
   }
 
   displayInfo() {
     console.log(
-      `Coach: ${this.coach}, Specialization: ${this.specialization}, Rating: ${this.rating}`,
+      `Coach: ${this.name}, Specialization: ${this.specialization}, Rating: ${this.rating}`,
     );
   }
 }
