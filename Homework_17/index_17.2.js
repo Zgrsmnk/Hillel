@@ -3,14 +3,14 @@ class Coach {
     this.name = name;
     this.specialization = specialization;
     this.rating = rating;
-  }
+  };
 
   displayInfo() {
     console.log(
       `Coach: ${this.name}, Specialization: ${this.specialization}, Rating: ${this.rating}`,
     );
-  }
-}
+  };
+};
 
 const coach1 = new Coach("John Doe", "Fitness", 4.7);
 
