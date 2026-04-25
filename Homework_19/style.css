@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 256px;
+  margin: 0 auto;
+  gap: 10px;
+  background: blue;
+  padding: 10px;
+}
+
+.imgContainer {
+    width: 90px;
+    height: 90px;
+}
+
+.city,
+.date,
+.temp,
+.description,
+.wind {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
