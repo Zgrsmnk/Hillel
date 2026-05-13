@@ -4,7 +4,7 @@ const input = document.querySelector(".js--form__input");
 const form = document.querySelector(".js--form");
 const ul = document.querySelector(".js--todos-wrapper");
 
-const API_URL = "http://localhost:8080";
+const API_URL = "http://localhost:8080/todos";
 
 let todos = [];
 
@@ -58,7 +58,7 @@ function render() {
 
     const newInput = document.createElement("input");
     newInput.type = "checkbox";
-    newInput.dataset.id = item._id;
+    newInput.dataset.id = item.id;
     li.append(newInput);
     newInput.checked = item.done;
 
@@ -72,7 +72,7 @@ function render() {
     button.textContent = "Видалити";
     li.append(button);
     button.classList.add("todo-item__delete");
-    button.dataset.id = item._id;
+    button.dataset.id = item.id;
     ul.append(li);
   });
 }
@@ -98,7 +98,7 @@ ul.addEventListener("change", async (event) => {
     try {
       const id = event.target.dataset.id;
 
-      const todo = todos.find((item) => item._id === id);
+      const todo = todos.find((item) => item.id === +id);
 
       await fetch(`${API_URL}/${id}`, {
         method: "PUT",
