@@ -5,10 +5,11 @@
 .form {
   display:flex;
   align-items: center;
+  width: 750px;
 }
 
 .form_input {
-  width: 60%;
+  width: 480px;
 }
 
 .form_block {
@@ -19,7 +20,7 @@
 }
 
 .list_item {
-  width: 750px;
+  width: 700px;
   margin-top: 15px;
   border: 2px solid gray;
   border-radius: 3px;
