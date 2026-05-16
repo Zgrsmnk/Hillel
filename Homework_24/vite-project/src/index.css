@@ -1,0 +1,26 @@
+.container {
+  padding: 0 15px;
+}
+
+.form {
+  display:flex;
+  align-items: center;
+}
+
+.form_input {
+  width: 60%;
+}
+
+.form_block {
+  border: 2px solid gray;
+  background: lightgray; 
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.list_item {
+  width: 750px;
+  margin-top: 15px;
+  border: 2px solid gray;
+  border-radius: 3px;
+}
