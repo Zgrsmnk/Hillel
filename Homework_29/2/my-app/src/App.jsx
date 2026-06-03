@@ -3,6 +3,7 @@ import { Provider } from "react-redux";
 import "./App.css";
 import TodoForm from "./components/TodoForm";
 import ItemsList from "./components/ItemsList";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <h1>Todo</h1>
       <TodoForm />
       <ItemsList />
+      <Footer />
     </Provider>
   );
 }
