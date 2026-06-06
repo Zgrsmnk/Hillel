@@ -4,8 +4,7 @@ import Divider from "@mui/material/Divider";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
-import { API_URL } from "../constants";
-import { setSwapiData, todos } from "../redux/slices/todoSlice";
+import { setSwapiData, getSwapi, todos } from "../redux/slices/todoSlice";
 
 const ItemsList = () => {
   const items = useSelector((state) => state.todos.items);
@@ -18,19 +17,7 @@ const ItemsList = () => {
 
 
   useEffect(() => {
-    const getTodos = async () => {
-      try {
-        const data = await fetch(API_URL);
-        const resporse = await data.json();
-
-        dispatch(todos.actions.setSwapiData(resporse));
-
-      } catch (error) {
-        console.log("Error", error);
-      }
-    };
-    
-    getTodos();
+    dispatch(getSwapi());
   }, []);
 
   return (
