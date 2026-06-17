@@ -2,9 +2,6 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import App from "../App";
 
 describe("App", () => {
-  // beforeEach(() => {
-  //     render(<App />)
-  // });
 
   test("renders TODO heading ", () => {
     render(<App />);
